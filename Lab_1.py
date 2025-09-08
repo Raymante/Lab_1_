@@ -37,7 +37,6 @@ def main():
               f" а файл имеет {w}x{h}. Скрипт всё равно выполнится.")
     pixels = img.load()
 
-    # координаты углов
     coords = {
         "upper_left": (0, 0),
         "upper_right": (w - 1, 0),
